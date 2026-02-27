@@ -3,10 +3,10 @@ app.py - Main analysis script for Experiment 3: Enthalpy and Entropy of Vaporiza
 Leverages Scipy and Numpy for OLS regression on linearized vapour pressure data.
 """
 
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.stats import linregress
-from constants import R, P_ATM_STD, REFERENCE_DATA
+import numpy as np  # pyre-ignore[21]
+import matplotlib.pyplot as plt  # pyre-ignore[21]
+from scipy.stats import linregress  # pyre-ignore[21]
+from constants import R, P_ATM_STD, REFERENCE_DATA  # pyre-ignore[21]
 
 # ASCII DATA FLOW DIAGRAM
 # -----------------------------------------------------------------------------
